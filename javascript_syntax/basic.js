@@ -17,6 +17,6 @@ var str1='Hi' + '\nmy name is '+name;
 console.log(str1);
 
 //template literal: javascript에서 문자를 입력하는 방식
-// ${}: 하나의 string안에 연결해서 사용, 줄바꿈가능
-var str2='Hi my name is ${name}';
+// ${}: 하나의 string안에 연결해서 사용, 줄바꿈가능 !작은 따옴표가 아님!
+var str2=`Hi my name is ${name}`;
 console.log(str2);
